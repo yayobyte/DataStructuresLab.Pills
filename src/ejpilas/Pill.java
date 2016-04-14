@@ -53,8 +53,8 @@ public class Pill {
         if (this.isEmpty()){
             data =  "Pila vacía";
         }else{
-            for (int i = 0; i<this.pointer; i++){
-                data = this.pill[i] + "\n";
+            for (int i = 0; i< this.pointer; i++){
+                data = data + this.pill[i] + "\n";
             }
         }
         return data;
